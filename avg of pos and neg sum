@@ -1,0 +1,16 @@
+positive_sum=0
+positive_count=0
+negitive_sum=0
+negitive_count=0
+while True:
+num=int(input())
+  if num==-1:
+    break
+  if num>0:
+   positive_sum+=num
+   positive_count+=1
+  else:
+   negitive_sum+=num
+   negitive_count+=1
+print("positive avg is ",positive_sum/positive_count)
+print("negitive avg is ",negitive_sum/negitive_count)
